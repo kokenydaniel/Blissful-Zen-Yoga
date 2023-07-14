@@ -1,0 +1,46 @@
+.navbar {
+    font-size: .8rem;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.brand-name {
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: none;
+    font-family: "Dancing script";
+    letter-spacing: 1px;
+}
+
+.navbar-toggler {
+    background-color: antiquewhite;
+    border: none;
+}
+
+.nav-item .active {
+    color: #FBD2BA;
+}
+
+.navbar-nav li a {
+    position: relative;
+}
+
+.navbar-nav li a:hover {
+    color: #FBD2BA;
+}
+
+.navbar-nav li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FBD2BA;
+    transition: width 0.3s ease;
+}
+
+.navbar-nav li a:hover::before {
+    width: 100%;
+}

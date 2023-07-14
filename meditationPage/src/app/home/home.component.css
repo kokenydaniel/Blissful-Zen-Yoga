@@ -1,0 +1,282 @@
+.container {
+    font-family: "Maven Pro";
+}
+
+.row>p {
+    letter-spacing: 0.4px;
+    font-weight: 500;
+}
+
+.btn-main {
+    border: 2px solid white;
+    font-weight: 500;
+    color: #f6c2a4;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 0.1px white;
+}
+
+.btn:hover {
+    background-color: #FBD2BA;
+    color: white;
+    box-shadow: 1px 1px 10px 0.1px #f6c2a4;
+    border: none;
+}
+
+#welcome {
+    background-color: antiquewhite;
+    border-bottom-right-radius: 30%;
+}
+
+.welcome {
+    padding-right: 50px;
+}
+
+.welcome>h5 {
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.welcome>h1 {
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.welcome>p {
+    text-align: right;
+}
+
+.section-icon {
+    font-size: 3rem;
+    color: antiquewhite;
+}
+
+.section-icon::before,
+.section-icon::after {
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background-color: antiquewhite;
+    margin: 20px 20px;
+}
+
+.sections {
+    margin-top: 50px;
+}
+
+.service {
+    padding: 25px;
+    margin: 10px;
+    text-align: center;
+}
+
+.service:hover {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    transition: all 0.6s ease;
+}
+
+.service-img {
+    width: 90px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 25px;
+}
+
+.list-filter li {
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid rgb(253, 222, 179);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(253, 222, 179);
+}
+
+.list-filter li:hover {
+    background-color: rgb(253, 222, 179);
+    transition: all 0.3s ease;
+    color: white;
+}
+
+td>h4 {
+    font-size: 16px;
+    color: rgb(253, 222, 179);
+    font-weight: 600;
+}
+
+td>h5,
+span {
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+td {
+    flex-wrap: wrap;
+    width: 20px;
+    height: 20px;
+    padding: 20px 10px;
+    vertical-align: middle;
+}
+
+.card {
+    border: 2px solid rgba(250, 235, 215, 0.6);
+}
+
+.card-body > p > i {
+    color: antiquewhite;
+}
+
+.card-body > h5 {
+    font-weight: 600;
+}
+
+.btn-card {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(253, 222, 179);
+    text-decoration: none;
+}
+
+.btn-card::after {
+    content: ">";
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.card-img-top {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(250, 235, 215, 0.4);
+    border-bottom-right-radius: 50%;
+}
+
+.price {
+    height: 35rem; 
+    background-color: white;
+    padding: 20px;
+}
+
+.price:hover {
+    .card-img-top {
+        background-color: antiquewhite;
+        color: white;
+    }
+    transform: translateY(-5px);
+    transition: all 0.4s ease-in-out;
+}
+
+.card-img-top > h5{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.price-dollar {
+    font-size: 3rem;
+    font: 700;
+}
+
+.card-body > ul {
+    list-style-type: none;
+}
+
+.card-body > ul > li {
+    font-weight: 600;
+    color: rgb(146, 146, 146);
+    margin-bottom: 20px;
+}
+
+.card-footer {
+    background-color: white;
+    border: none;
+}
+
+.btn-price {
+    color: rgb(253, 222, 179);
+    text-decoration: none;
+    border: 2px solid rgb(253, 222, 179);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn-price:hover {
+    background-color: rgb(253, 222, 179);
+    color: white;
+}
+
+.form-control {
+    background-color: transparent;
+    color: #666;
+    border: none;
+    border-bottom: 1px solid antiquewhite;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+    height: 46px;
+    padding: 12px;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    border-bottom: 2px solid #FBD2BA;
+}
+
+input {
+    overflow: visible;
+    margin: 0;
+}
+
+label {
+    width: 100%;
+    margin-bottom: 0;
+    cursor: text;
+    color: #888;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.send-message-btn {
+    text-align: right;
+}
+
+.btn-message {
+    color: white;
+    background-color: rgb(253, 222, 179);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+#contact {
+    background-color: rgb(253, 222, 179, 0.09);
+    padding: 100px;
+}
+
+@media screen and (max-width:767px) {
+    .welcome {
+        padding: 50px;
+    }
+
+    .btn-div {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .list-filter li{
+        padding: 5px 5px;
+        margin-right: 5px;
+    }
+}

@@ -1,16 +1,13 @@
 .container {
     font-family: "Maven Pro", sans-serif;
 }
-
 .row>p {
     letter-spacing: 0.4px;
     font-weight: 500;
 }
-
 .btn-div {
     margin-top: 15%;
 }
-
 .btn-main {
     font-weight: 600;
     background-color: antiquewhite;
@@ -18,12 +15,10 @@
     width: 10%;
     border-radius: 10px;
 }
-
 .btn-main:hover {
     background-color: #FBD2BA;
     color: white;
 }
-
 #welcome {
     position: relative;
     width: 100%;
@@ -33,20 +28,17 @@
     background-position: center;
     color: antiquewhite;
 }
-
 .animate {
     opacity: 0;
     transform: translateY(30px);
     animation: moveup 1s linear forwards;
 }
-
 @keyframes moveup {
     100% {
         opacity: 1;
         transform: translateY(0px);
     }
 }
-
 .welcome {
     position: relative;
     z-index: 1;
@@ -56,14 +48,12 @@
     padding: 0 50px;
     text-align: center;
 }
-
 .welcome>h5 {
     font-size: 2rem;
     letter-spacing: 0.3px;
     text-transform: uppercase;
     animation-delay: 0.5s;
 }
-
 .welcome>h1 {
     font-size: 70px;
     letter-spacing: 0.3px;
@@ -72,12 +62,10 @@
     animation-delay: 1s;
     font-weight: 900;
 }
-
 .section-icon {
     font-size: 3rem;
     color: antiquewhite;
 }
-
 .section-icon::before,
 .section-icon::after {
     content: "";
@@ -87,23 +75,19 @@
     background-color: antiquewhite;
     margin: 20px 20px;
 }
-
 .sections {
     margin-top: 50px;
 }
-
 .service {
     padding: 25px;
     margin: 10px;
     text-align: center;
 }
-
 .service:hover {
     background-color: antiquewhite;
     border-radius: 10px;
     transition: all 0.6s ease;
 }
-
 .service-img {
     width: 90px;
     background-color: antiquewhite;
@@ -111,19 +95,16 @@
     padding: 20px;
     margin: 25px;
 }
-
 td>h4 {
     font-size: 16px;
     color: rgb(253, 222, 179);
     font-weight: 600;
 }
-
 td>h5,
 span {
     font-size: 14px;
     margin-top: 8px;
 }
-
 td {
     flex-wrap: wrap;
     width: 20px;
@@ -131,34 +112,28 @@ td {
     padding: 20px 10px;
     vertical-align: middle;
 }
-
 .card {
     border: 2px solid rgba(250, 235, 215, 0.6);
     padding: 0;
 }
-
 .events {
     display: flex;
     justify-content: center;
 }
-
 .event {
     box-shadow: 5px 40px 30px rgba(204, 204, 204, 0.4);
     transform-style: preserve-3d;
     transition: all 0.5s ease;
     margin: 20px;
 }
-
 .event:hover {
     transform: rotateY(180deg);
 }
-
 .front {
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
 }
-
 .back {
     position: absolute;
     top: 0;
@@ -174,41 +149,34 @@ td {
     background-color: rgba(250, 235, 215, 0.5);
     border: 2px solid rgba(250, 235, 215, 0.6);
 }
-
 .card-back-background {
     padding: 10px;
     text-align: justify;
 }
-
 .card-img-top {
     padding: 50px;
     text-align: center;
     background-color: rgba(250, 235, 215, 0.5);
     border-bottom-right-radius: 50%;
 }
-
 .card-body>h5 {
     font-weight: 600;
     margin-top: 10px;
 }
-
 .card-body>p>i {
     color: antiquewhite;
 }
-
 .title {
     font-weight: 400;
     text-transform: uppercase;
     margin-bottom: 3px;
 }
-
 .card-text a {
     color: #FBD2BA;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
 }
-
 .btn-card {
     color: black;
     background-color: #F2D8BD;
@@ -221,61 +189,50 @@ td {
     text-decoration: none;
     transition: all 0.4s ease;
 }
-
 .btn-card:hover {
     color: black;
     background-color: #F2D8BD;
     border-radius: 30px;
 }
-
 .prices {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
 .price {
     min-height: fit-content;
     background-color: white;
     padding: 20px;
     margin: 10px;
 }
-
 .price:hover {
     .card-img-top {
         background-color: antiquewhite;
         color: white;
     }
-
     transform: translateY(-5px);
     transition: all 0.4s ease-in-out;
 }
-
 .card-img-top>h5 {
     font-size: 16px;
     font-weight: 700;
 }
-
 .price-dollar {
     font-size: 3rem;
     font: 700;
 }
-
 .card-body>ul {
     list-style-type: none;
 }
-
 .card-body>ul>li {
     font-weight: 600;
     color: rgb(146, 146, 146);
     margin-bottom: 20px;
 }
-
 .card-footer {
     background-color: white;
     border: none;
 }
-
 .btn-price {
     color: rgb(253, 222, 179);
     text-decoration: none;
@@ -284,12 +241,10 @@ td {
     padding: 10px;
     margin: 10px;
 }
-
 .btn-price:hover {
     background-color: rgb(253, 222, 179);
     color: white;
 }
-
 .form-control {
     background-color: transparent;
     color: #666;
@@ -304,16 +259,13 @@ td {
     width: 100%;
     font-size: 1rem;
 }
-
 .form-control:focus {
     border-bottom: 2px solid #FBD2BA;
 }
-
 input {
     overflow: visible;
     margin: 0;
 }
-
 label {
     width: 100%;
     margin-bottom: 0;
@@ -322,15 +274,12 @@ label {
     display: inline-block;
     font-weight: 500;
 }
-
 .form-group {
     margin-bottom: 30px;
 }
-
 .send-message-btn {
     text-align: right;
 }
-
 .btn-message {
     color: white;
     background-color: rgb(253, 222, 179);
@@ -338,16 +287,13 @@ label {
     padding: 10px 20px;
     font-weight: 600;
 }
-
 .error {
     color: red;
 }
-
 #contact {
     background-color: rgb(253, 222, 179, 0.09);
     padding: 100px;
 }
-
 .top-up-btn {
     display: none;
     position: fixed;
@@ -361,14 +307,12 @@ label {
     border-radius: 20px;
     text-decoration: none;
 }
-
 .top-up-btn:hover {
     background-color: #FBD2BA;
     transform: translateY(-2px);
     transition: all 0.2s ease-in-out;
     font-weight: 600;
 }
-
 @media only screen and (max-width: 595px) {
     .welcome>h5 {
         font-size: 1rem;

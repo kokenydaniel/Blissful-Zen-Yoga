@@ -8,12 +8,7 @@ import { EventsComponent } from './events/events.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: 'tm-technique', component: TmTechniqueComponent },
-  { path: 'course', component: CourseComponent },
-  { path: 'events', component: EventsComponent },
-  { path: 'contact', component: ContactComponent },
-  { path: '', redirectTo: "/home", pathMatch: "full" },
+  { path: '', component: HomeComponent },
   { path: '**', component: NotFoundComponent },
 ];
 

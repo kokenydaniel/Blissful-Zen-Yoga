@@ -2,10 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { TmTechniqueComponent } from './tm-technique/tm-technique.component';
-import { CourseComponent } from './course/course.component';
-import { EventsComponent } from './events/events.component';
-import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
